@@ -67,3 +67,25 @@ along the way.
 </picture>
 
 <!-- snake-animation:end -->
+
+<!-- profile-3d:start -->
+
+## My Contributions in 3D 🌃
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile-3d-contrib/profile-night-rainbow.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./profile-3d-contrib/profile-green.svg"
+  />
+  <img
+    alt="A 3D visualization of my GitHub contributions"
+    src="./profile-3d-contrib/profile-green.svg"
+    width="100%"
+  />
+</picture>
+
+<!-- profile-3d:end -->
