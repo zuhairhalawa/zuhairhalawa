@@ -1,4 +1,14 @@
-<h1 align="center">Hey, I'm Zuhair 👋</h1>
+<!-- capsule-banner:start -->
+<p align="center">
+  <a href="https://github.com/kyechan99/capsule-render">
+    <img
+      src="./assets/profile-banner.svg"
+      alt="Zuhair Halawa"
+      width="100%"
+    />
+  </a>
+</p>
+<!-- capsule-banner:end -->
 
 <p align="center">
   <strong>Computer Science · Software Development · Cybersecurity</strong>
