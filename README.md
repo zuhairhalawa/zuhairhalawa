@@ -47,6 +47,38 @@ along the way.
   <em>Learn it. Build it. Improve it.</em>
 </p>
 
+
+<!-- profile-stats:start -->
+
+## GitHub Snapshot 📊
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./profile-stats/stats-dark.svg"
+    />
+    <img
+      src="./profile-stats/stats-light.svg"
+      alt="My GitHub activity statistics"
+      height="180"
+    />
+  </picture>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./profile-stats/languages-dark.svg"
+    />
+    <img
+      src="./profile-stats/languages-light.svg"
+      alt="Languages in my public repositories"
+      height="180"
+    />
+  </picture>
+</p>
+
+<!-- profile-stats:end -->
+
 <!-- snake-animation:start -->
 
 ## Contribution Snake 🐍
