@@ -1,0 +1,43 @@
+name: Update Snake Animation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake-animation
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate light and dark snake animations
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: zuhairhalawa
+          outputs: |
+            dist/github-snake.svg?color_snake=#2F81F7
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#58A6FF
+
+      - name: Check that both images were generated
+        run: |
+          test -s dist/github-snake.svg
+          test -s dist/github-snake-dark.svg
+
+      - name: Publish images to snake-output
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
+        with:
+          target_branch: snake-output
+          build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+          commit_message: Update snake animation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
