@@ -10,6 +10,17 @@
 </p>
 <!-- capsule-banner:end -->
 
+<!-- contact-badges:start -->
+<p align="center">
+  <a href="https://github.com/zuhairhalawa?tab=repositories">
+    <img src="./profile-extras/projects.svg" alt="View my projects" />
+  </a>
+  <a href="mailto:zuhairhalawa215@gmail.com">
+    <img src="./profile-extras/email.svg" alt="Email me" />
+  </a>
+</p>
+<!-- contact-badges:end -->
+
 <p align="center">
   <strong>Computer Science · Software Development · Cybersecurity</strong>
 </p>
@@ -89,6 +100,17 @@ along the way.
 
 <!-- profile-stats:end -->
 
+<!-- weekday-streak:start -->
+## Contribution Streak 🔥
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-extras/streak-dark.svg" />
+  <img src="./profile-extras/streak-light.svg" alt="GitHub contribution streak, excluding Saturdays and Sundays" />
+</picture>
+
+<sub>Saturday and Sunday are excluded from the streak calculation.</sub>
+<!-- weekday-streak:end -->
+
 <!-- snake-animation:start -->
 
 ## Contribution Snake 🐍
@@ -109,3 +131,19 @@ along the way.
 </picture>
 
 <!-- snake-animation:end -->
+
+<!-- pacman-arcade:start -->
+## Arcade Corner 👾
+
+<details>
+<summary>Show Pac-Man contribution animation</summary>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-extras/pacman-dark.svg" />
+  <img src="./profile-extras/pacman-light.svg" alt="Pac-Man animation based on my GitHub contributions" width="100%" />
+</picture>
+
+</details>
+<!-- pacman-arcade:end -->
