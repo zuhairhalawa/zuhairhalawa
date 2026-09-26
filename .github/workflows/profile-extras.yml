@@ -1,0 +1,93 @@
+name: Update Profile Extras
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 6 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-extras
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Generate light streak card
+        uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1
+        with:
+          options: user=zuhairhalawa&theme=default&exclude_days=Sat,Sun&timezone=Asia%2FDubai&border_radius=12
+          path: profile-extras/streak-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate dark streak card
+        uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1
+        with:
+          options: user=zuhairhalawa&theme=dark&exclude_days=Sat,Sun&timezone=Asia%2FDubai&border_radius=12
+          path: profile-extras/streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Pac-Man animation
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
+        with:
+          github_user_name: zuhairhalawa
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
+
+      - name: Collect animation and badges
+        run: |
+          mkdir -p profile-extras
+          cp -- dist/pacman-contribution-graph.svg profile-extras/pacman-light.svg
+          cp -- dist/pacman-contribution-graph-dark.svg profile-extras/pacman-dark.svg
+
+          curl --fail --location --silent --show-error --retry 3 --max-time 60 \
+            "https://img.shields.io/badge/View_projects-2563EB?style=for-the-badge&logo=github&logoColor=white" \
+            --output profile-extras/projects.svg
+
+          curl --fail --location --silent --show-error --retry 3 --max-time 60 \
+            "https://img.shields.io/badge/Email_me-374151?style=for-the-badge&logo=gmail&logoColor=white" \
+            --output profile-extras/email.svg
+
+      - name: Validate all six images
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          names = (
+              "streak-light.svg", "streak-dark.svg",
+              "pacman-light.svg", "pacman-dark.svg",
+              "projects.svg", "email.svg"
+          )
+          for name in names:
+              path = Path("profile-extras") / name
+              root = ET.parse(path).getroot()
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise SystemExit(f"Not a valid SVG: {name}")
+              print(f"OK: {name}")
+          PY
+
+      - name: Publish generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- profile-extras/
+
+          if git diff --cached --quiet; then
+            echo "Images are already up to date."
+          else
+            git commit -m "Update streak, Pac-Man and profile badges"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
