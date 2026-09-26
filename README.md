@@ -1,16 +1,48 @@
-## Hi there 👋
+<h1 align="center">Hey, I'm Zuhair 👋</h1>
 
-<!--
-**zuhairhalawa/zuhairhalawa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <strong>Computer Science · Software Development · Cybersecurity</strong>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=2F81F7&center=true&vCenter=true&width=600&height=60&lines=Building+ideas+into+real+projects.;Exploring+cybersecurity+and+AI.;Always+learning.+Always+building."
+      alt="Building ideas into real projects. Exploring cybersecurity and AI."
+      width="600"
+    />
+  </a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## A little about me
+
+I'm a computer science student interested in building useful software,
+understanding how systems work, and exploring cybersecurity and AI.
+
+I learn by working on projects, experimenting, and figuring things out
+along the way.
+
+## Tools I'm using and learning
+
+<p align="center">
+  <a href="https://github.com/tandpfun/skill-icons">
+    <img
+      src="https://skillicons.dev/icons?i=py,java,mysql,linux,git,github&theme=dark&perline=6"
+      alt="Python, Java, MySQL, Linux, Git, and GitHub"
+    />
+  </a>
+</p>
+
+## What interests me
+
+- Building practical applications and websites.
+- Finding and fixing security issues in software.
+- Exploring how AI can improve software development.
+
+---
+
+<p align="center">
+  <em>Learn it. Build it. Improve it.</em>
+</p>
