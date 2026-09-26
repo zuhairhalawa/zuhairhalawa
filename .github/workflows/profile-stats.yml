@@ -1,0 +1,82 @@
+name: Update Profile Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 5 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Download profile repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Generate light stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: stats
+          options: username=zuhairhalawa&show_icons=true&hide_rank=true&theme=default&border_radius=12
+          path: profile-stats/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate dark stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: stats
+          options: username=zuhairhalawa&show_icons=true&hide_rank=true&theme=tokyonight&border_radius=12
+          path: profile-stats/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate light language card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: top-langs
+          options: username=zuhairhalawa&layout=compact&langs_count=6&theme=default&border_radius=12&exclude_repo=zuhairhalawa,repository-activity
+          path: profile-stats/languages-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate dark language card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
+        with:
+          card: top-langs
+          options: username=zuhairhalawa&layout=compact&langs_count=6&theme=tokyonight&border_radius=12&exclude_repo=zuhairhalawa,repository-activity
+          path: profile-stats/languages-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Check generated cards
+        run: |
+          test -s profile-stats/stats-light.svg
+          test -s profile-stats/stats-dark.svg
+          test -s profile-stats/languages-light.svg
+          test -s profile-stats/languages-dark.svg
+
+      - name: Save cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- profile-stats/
+
+          if git diff --cached --quiet; then
+            echo "Cards are already up to date."
+          else
+            git commit -m "Update profile stats cards"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
