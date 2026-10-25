@@ -71,7 +71,7 @@ Interactive explorations of [Longest Increasing Subsequence](https://github.com/
       <sub>I welcome project sponsorship, open-source support, and thoughtful collaborations. Reach out if you'd like to help build something useful.</sub>
     </td>
     <td align="right">
-      <a href="https://www.linkedin.com/in/zuhair-hussein-halawa/"><img src="./assets/support-work.svg" width="210" alt="Support the work — contact me on LinkedIn"/></a>
+      <a href="https://github.com/sponsors/zuhairhalawa"><img src="./assets/support-work.svg" width="210" alt="Support the work — sponsor Zuhair Halawa on GitHub"/></a>
     </td>
   </tr>
 </table>
