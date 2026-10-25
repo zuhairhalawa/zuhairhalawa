@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="284" viewBox="0 0 1200 284" role="img" aria-label="Zuhair Halawa. Software engineering, cybersecurity and applied AI.">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090C11"/>
+      <stop offset="0.55" stop-color="#10151D"/>
+      <stop offset="1" stop-color="#171D27"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F3EFE9"/>
+      <stop offset="1" stop-color="#9AA5B1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D9C4A9"/>
+      <stop offset="1" stop-color="#8A989F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="284" fill="url(#background)"/>
+  <rect x="1" y="1" width="1198" height="282" fill="none" stroke="#27313C" stroke-width="2"/>
+  <path d="M0 279 H1200" stroke="url(#accent)" stroke-width="3"/>
+  <path d="M68 56 H1132" stroke="#303844" stroke-width="1"/>
+  <text x="68" y="43" fill="#CDBBA4" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="5">ZH / PERSONAL WORK</text>
+  <text x="1132" y="43" text-anchor="end" fill="#9BA6B3" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3">SHARJAH · UAE</text>
+  <text x="68" y="155" fill="#F0F2F2" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="64" letter-spacing="3">ZUHAIR HALAWA</text>
+  <path d="M69 179 H352" stroke="url(#accent)" stroke-width="3"/>
+  <text x="68" y="221" fill="#B9C1CA" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="2">SOFTWARE ENGINEERING   /   CYBERSECURITY   /   APPLIED AI</text>
+  <g opacity=".68" stroke="#323D4A" fill="none">
+    <path d="M915 83 H1127 V255 H914 Z"/>
+    <path d="M940 83 V255 M964 83 V255 M988 83 V255 M1012 83 V255 M1036 83 V255 M1060 83 V255 M1084 83 V255 M1108 83 V255"/>
+    <path d="M915 106 H1127 M915 130 H1127 M915 154 H1127 M915 178 H1127 M915 202 H1127 M915 226 H1127"/>
+  </g>
+  <g transform="translate(964,113)" fill="none" stroke-linejoin="miter" stroke-linecap="square" stroke-width="9">
+    <path d="M0 0 H52 L0 52 H52" stroke="url(#mark)"/>
+    <path d="M73 0 V52 M123 0 V52 M73 26 H123" stroke="url(#mark)"/>
+  </g>
+  <rect x="914" y="83" width="5" height="172" fill="#C8B49C"/>
+</svg>
