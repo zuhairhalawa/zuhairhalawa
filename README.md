@@ -47,6 +47,28 @@ Interactive explorations of [Longest Increasing Subsequence](https://github.com/
 
 ---
 
+### Open-source developer tools
+
+Small, practical CLIs built to solve problems encountered while contributing to open source. Each repository includes a working terminal demo and installation instructions.
+
+**[FreshQ](https://github.com/zuhairhalawa/FreshQ)** · [npm](https://www.npmjs.com/package/@zuhairhalawa/freshq)  
+Find newly posted, unanswered GitHub Discussions across repositories.  
+<sub>TypeScript · GitHub GraphQL · CLI</sub>
+
+**[AdvisoryGuard](https://github.com/zuhairhalawa/AdvisoryGuard)** · [npm](https://www.npmjs.com/package/advisoryguard)  
+Catch accidental CVSS and other security-advisory metadata changes before publication.  
+<sub>TypeScript · OSV · Supply-chain security</sub>
+
+**[CIFirstAid](https://github.com/zuhairhalawa/CIFirstAid)** · [npm](https://www.npmjs.com/package/@zuhairhalawa/ci-first-aid)  
+Find useful root-cause evidence in noisy GitHub Actions failure logs.  
+<sub>TypeScript · GitHub Actions · Diagnostics</sub>
+
+**[ReadmeProof](https://github.com/zuhairhalawa/ReadmeProof)** · [npm](https://www.npmjs.com/package/@zuhairhalawa/readmeproof)  
+Check README references and verify opted-in examples inside restricted Docker containers.  
+<sub>TypeScript · Markdown · Docker</sub>
+
+---
+
 ### Credentials
 
 **Cisco** · [Introduction to Modern AI](https://www.credly.com/badges/ffa53aed-add3-48ed-a223-d5235f6ead5f)  
