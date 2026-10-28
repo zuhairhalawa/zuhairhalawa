@@ -22,27 +22,31 @@
 
 ### Selected work
 
-**01 &nbsp; [StudyAI](https://github.com/zuhairhalawa/studyai)** · `PUBLIC`  
+**01 &nbsp; [TapTrail](https://github.com/zuhairhalawa/TapTrail)** · [LIVE DEMO](https://zuhairhalawa.github.io/TapTrail/) · `PUBLIC`  
+Turn screenshots into interactive, clickable walkthroughs and share a self-contained HTML guide that works offline.  
+<sub>React · TypeScript · Vite · Tailwind CSS · IndexedDB</sub>
+
+**02 &nbsp; [StudyAI](https://github.com/zuhairhalawa/studyai)** · `PUBLIC`  
 A local-first study platform for lecture imports, spaced-repetition flashcards, practice exams, and an optional AI tutor grounded in course material.  
 <sub>React · TypeScript · Cloudflare Workers · Gemini</sub>
 
-**02 &nbsp; [NFC'er](https://nfcer.ae)** · `FOUNDER`  
+**03 &nbsp; [NFC'er](https://nfcer.ae)** · `FOUNDER`  
 Building an NFC products business and its commerce platform, including smart business cards and digital profiles.  
 <sub>Laravel · PHP · JavaScript · MySQL · NFC</sub>
 
-**03 &nbsp; RELAY** · `PRIVATE / EARLY BETA`  
+**04 &nbsp; RELAY** · `PRIVATE / EARLY BETA`  
 An experimental end-to-end encrypted messenger. The implementation is private and has not undergone an independent security audit.  
 <sub>Java · React · TypeScript · Web Crypto</sub>
 
-**04 &nbsp; [ZeroTrace Lab / BioHACK3D '26](https://csaw.io/competition/biohack-3d)** · `PRIVATE / RESEARCH`  
+**05 &nbsp; [ZeroTrace Lab / BioHACK3D '26](https://csaw.io/competition/biohack-3d)** · `PRIVATE / RESEARCH`  
 Preparing for the BioHACK3D final with computer-vision and adversarial-ML research around physical authentication. Source publication is pending review.  
 <sub>Python · PyTorch · OpenCV · FastAPI · React</sub>
 
-**05 &nbsp; AI-generated code security research** · `GRADUATION PROJECT`  
+**06 &nbsp; AI-generated code security research** · `GRADUATION PROJECT`  
 Exploring automated detection and repair of security and maintainability defects in LLM-generated code.  
 <sub>Python · Semgrep · Bandit · Ruff · Trivy</sub>
 
-**06 &nbsp; Algorithm visualizations** · `PUBLIC`  
+**07 &nbsp; Algorithm visualizations** · `PUBLIC`  
 Interactive explorations of [Longest Increasing Subsequence](https://github.com/zuhairhalawa/lis-visualizer) and [Longest Path / NP-completeness](https://github.com/zuhairhalawa/longest-path-visualizer).
 
 ---
