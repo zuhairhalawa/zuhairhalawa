@@ -36,6 +36,36 @@
 
 I'm a Computer Science student who likes taking ideas past the prototype: building products, finding failure cases, improving reliability, and learning by shipping. My work spans security-focused engineering, developer tooling, web applications, and applied AI.
 
+## `00 // SECURITY INTELLIGENCE`
+
+> **Verified work beats a CVE counter.** My public security contributions include accepted metadata updates to the official GitHub Advisory Database: corrected patched-version boundaries, remediation references and cross-project vulnerability intelligence. I distinguish these **Analyst-style contributions** from original vulnerability discovery.
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>APOSTROPHECMS</strong><br/>
+      <sub>Patched-version and remediation mapping</sub><br/><br/>
+      <a href="https://github.com/github/advisory-database/pull/10651">✓ Merged PR #10651</a>
+    </td>
+    <td width="33%" valign="top">
+      <strong>FACTURASCRIPTS</strong><br/>
+      <sub>CSV injection: fixed-release boundary</sub><br/><br/>
+      <a href="https://github.com/github/advisory-database/pull/10639">✓ Merged PR #10639</a>
+    </td>
+    <td width="34%" valign="top">
+      <strong>DOLIBARR</strong><br/>
+      <sub>Correcting an affected version range</sub><br/><br/>
+      <a href="https://github.com/github/advisory-database/pull/10672">✓ Merged PR #10672</a>
+    </td>
+  </tr>
+</table>
+
+**[↳ ENTER SECURITY RESEARCH PORTFOLIO](security/README.md)** · [8 verified merged examples](security/evidence.json) · [Public GitHub advisory credits](https://github.com/advisories?query=credit%3Azuhairhalawa) · [All merged Advisory Database PRs](https://github.com/github/advisory-database/pulls?q=is%3Apr+is%3Amerged+author%3Azuhairhalawa)
+
+<sub>Accepted Advisory Database edits support accurate vulnerability metadata. They do not by themselves establish that I discovered the underlying CVEs or wrote the vendor fixes.</sub>
+
+---
+
 ## `01 // SYSTEMS ONLINE`
 
 <p><sub>Selected public work and real products. Click a project to inspect the code, try it live, or see the actual scope.</sub></p>
