@@ -16,6 +16,27 @@
 
 ---
 
+## `$ open /research/latest`
+
+<table>
+  <tr>
+    <td width="56%" valign="top">
+      <strong><a href="VERSION-BOUNDARY-CASE-STUDY.md">THE PATCH-VERSION TRAP</a></strong><br/>
+      <sub>Technical case study · Dolibarr security advisory</sub><br/><br/>
+      Why a maintenance release published later may still be vulnerable after a newer major release is patched. Based on a <a href="https://github.com/github/advisory-database/pull/10672">verified, merged GitHub advisory contribution</a>.
+      <br/><br/>
+      <a href="VERSION-BOUNDARY-CASE-STUDY.md"><strong>↳ READ THE ANALYSIS</strong></a>
+    </td>
+    <td width="44%" valign="top">
+      <strong><a href="EXTERNAL-RECOGNITION.md">EXTERNAL RECOGNITION ROUTES</a></strong><br/>
+      <sub>Researched · GitLab / OpenSSF / OSV / OWASP</sub><br/><br/>
+      A source-linked plan for building independently reviewed contributions on major security platforms—without misrepresenting advisory Analyst credit as original CVE discovery.
+      <br/><br/>
+      <a href="EXTERNAL-RECOGNITION.md"><strong>↳ SEE THE ROADMAP</strong></a>
+    </td>
+  </tr>
+</table>
+
 ## `$ cat /about/security-research`
 
 My security contributions focus on **improving the reliability of public vulnerability information**: tracking patched versions, connecting published advisories to remediation commits, and preserving accurate metadata for downstream users of advisory databases.
