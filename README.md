@@ -60,7 +60,9 @@ I'm a Computer Science student who likes taking ideas past the prototype: buildi
   </tr>
 </table>
 
-**[↳ ENTER SECURITY RESEARCH PORTFOLIO](security/README.md)** · [8 verified merged examples](security/evidence.json) · [Public GitHub advisory credits](https://github.com/advisories?query=credit%3Azuhairhalawa) · [All merged Advisory Database PRs](https://github.com/github/advisory-database/pulls?q=is%3Apr+is%3Amerged+author%3Azuhairhalawa)
+**[↳ ENTER SECURITY RESEARCH PORTFOLIO](security/README.md)** · [8 verified merged examples](security/evidence.json)
+
+**NEW RESEARCH NOTE** · [The Patch-Version Trap: when a later release remains vulnerable](security/VERSION-BOUNDARY-CASE-STUDY.md) · [Cross-platform recognition plan](security/EXTERNAL-RECOGNITION.md) · [Public GitHub advisory credits](https://github.com/advisories?query=credit%3Azuhairhalawa) · [All merged Advisory Database PRs](https://github.com/github/advisory-database/pulls?q=is%3Apr+is%3Amerged+author%3Azuhairhalawa)
 
 <sub>Accepted Advisory Database edits support accurate vulnerability metadata. They do not by themselves establish that I discovered the underlying CVEs or wrote the vendor fixes.</sub>
 
