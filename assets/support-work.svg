@@ -1,5 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="245" height="54" viewBox="0 0 245 54" role="img" aria-label="Support the work">
-  <rect x="0.5" y="0.5" width="244" height="53" rx="9" fill="#151A22" stroke="#4B5360"/>
-  <path d="M34 21c-2-5-10-5-12 0-2 5 3 10 12 17 9-7 14-12 12-17-2-5-10-5-12 0z" fill="#D58DA2"/>
-  <text x="59" y="33" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1" fill="#F2EEE7">SUPPORT THE WORK</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="245" height="54" viewBox="0 0 245 54" role="img" aria-label="Sponsor the work on GitHub">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#031719"/><stop offset="1" stop-color="#071F24"/></linearGradient>
+  <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4DFFBC"/><stop offset="1" stop-color="#1DC5CE"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="1.5"/></filter>
+</defs>
+<rect width="245" height="54" rx="9" fill="url(#panel)"/>
+<rect x="1" y="1" width="243" height="52" rx="8" fill="none" stroke="url(#stroke)" stroke-width="1.6" opacity=".83"/>
+<path d="M11 9 H31 M11 9 V19 M234 45 H214 M234 45 V35" fill="none" stroke="#57FFD1" opacity=".7"/>
+<path d="M31 19c-2.5-5.5-10-6-12.5-.5-2.5 6 4 11.7 12.5 18.5 8.5-6.8 15-12.5 12.5-18.5-2.5-5.5-10-5-12.5.5Z" fill="#36EFAE"/>
+<path d="M31 19c-2.5-5.5-10-6-12.5-.5-2.5 6 4 11.7 12.5 18.5 8.5-6.8 15-12.5 12.5-18.5-2.5-5.5-10-5-12.5.5Z" fill="#36EFAE" opacity=".65" filter="url(#glow)"/>
+<text x="59" y="25" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="700" fill="#D6FFF3" letter-spacing=".7">SUPPORT THE WORK</text>
+<text x="59" y="41" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#58D9C3" letter-spacing="1">github.com/sponsors</text>
 </svg>
