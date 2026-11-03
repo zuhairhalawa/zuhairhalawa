@@ -75,10 +75,16 @@ Check README references and verify opted-in examples inside restricted Docker co
 
 ### Credentials
 
+**Hikvision** · **CGSP-CCTV** — Certified General Security Professional · Valid through June 2031  
+**Hikvision** · **CGSA-CCTV** — Certified General Security Associate · Valid through June 2031  
+**Hikvision** · **CGSA-Access Control** — Certified General Security Associate · Valid through June 2031
+
+<sub>Completed during my internship training at Hikvision's MENA headquarters.</sub>
+
 **Cisco** · [Introduction to Modern AI](https://www.credly.com/badges/ffa53aed-add3-48ed-a223-d5235f6ead5f)  
 **Cisco** · [Computer Hardware Basics](https://www.credly.com/badges/bb47ec84-7da8-42d1-b45c-7a02bd4f0a8e/linked_in_profile)
 
-<sub>Digital credentials open on Credly for verification.</sub>
+<sub>Cisco digital credentials open on Credly for verification.</sub>
 
 ---
 
