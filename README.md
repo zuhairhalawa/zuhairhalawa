@@ -8,6 +8,7 @@
 
   <br/>
 
+  <a href="https://zuhairhalawa.com"><img alt="Portfolio — zuhairhalawa.com" src="https://img.shields.io/badge/PORTFOLIO-VISIT%20WEBSITE-04181B?style=for-the-badge&logo=cloudflare&logoColor=63F7D0&labelColor=061216&color=168C80" /></a>
   <a href="https://www.linkedin.com/in/zuhair-hussein-halawa/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-CONNECT-04181B?style=for-the-badge&logo=linkedin&logoColor=63F7D0&labelColor=061216&color=147D85" /></a>
   <a href="https://nfcer.ae"><img alt="NFC'er" src="https://img.shields.io/badge/NFC'ER-FOUNDER-04181B?style=for-the-badge&logoColor=63F7D0&labelColor=061216&color=158C71" /></a>
   <a href="https://github.com/advisories?query=credit%3Azuhairhalawa"><img alt="GitHub security advisory credits" src="https://img.shields.io/badge/SECURITY-ADVISORY%20CREDITS-04181B?style=for-the-badge&logo=github&logoColor=63F7D0&labelColor=061216&color=147D85" /></a>
@@ -17,6 +18,14 @@
 </div>
 
 ---
+
+<div align="center">
+
+**[ENTER THE INTERACTIVE PORTFOLIO — ZUHAIRHALAWA.COM](https://zuhairhalawa.com)**
+
+<sub>Live projects · Security research · Interactive knowledge constellation · Verified credentials</sub>
+
+</div>
 
 ### `root@zuhair:~# whoami`
 
@@ -189,6 +198,8 @@ GitHub Developer Program member. Security advisory credits are listed publicly o
   <tr>
     <td width="70%" valign="middle">
       <strong>Want to collaborate, discuss engineering, or support an open-source project?</strong><br/><br/>
+      <a href="https://zuhairhalawa.com">Portfolio</a>
+      &nbsp;·&nbsp;
       <a href="https://www.linkedin.com/in/zuhair-hussein-halawa/">LinkedIn</a>
       &nbsp;·&nbsp;
       <a href="mailto:zuhairhalawa215@gmail.com">Email</a>
