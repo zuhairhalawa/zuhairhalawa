@@ -53,7 +53,7 @@ I'm a Computer Science student who likes taking ideas past the prototype: buildi
   <tr>
     <td width="33%" valign="top">
       <strong>APOSTROPHECMS</strong><br/>
-      <sub>Patched-version and remediation mapping</sub><br/><br/>
+      <sub>Explicit patched-version boundary</sub><br/><br/>
       <a href="https://github.com/github/advisory-database/pull/10651">✓ Merged PR #10651</a>
     </td>
     <td width="33%" valign="top">

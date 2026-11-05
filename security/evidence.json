@@ -30,8 +30,9 @@
       "author": "zuhairhalawa",
       "status": "merged",
       "merged_on": "2026-10-28",
-      "contribution_category": "Fixed version + remediation reference",
-      "description": "Recorded version 4.32.1 as patched and linked the relevant fix commit, with release-line caveats.",
+      "rechecked_on": "2026-11-05",
+      "contribution_category": "Patched-release boundary",
+      "description": "Replaced last_affected 4.32.0 with the more explicit fixed 4.32.1. Did not add the fix-commit reference, which was already present. The reviewer accepted the clearer key and said the prior record was accurate.",
       "attribution_scope": "Merged GitHub Advisory Database metadata contribution only"
     },
     {

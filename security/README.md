@@ -51,7 +51,7 @@ These are **eight independently checked examples** of pull requests authored by 
 
 | Advisory / package | What the merged edit improved | Primary evidence |
 | :--- | :--- | :--- |
-| **ApostropheCMS** · [GHSA-vmg4-6gfg-83qx](https://github.com/advisories/GHSA-vmg4-6gfg-83qx) | Patched version **4.32.1** and remediation reference for prototype-pollution DoS | **[Merged PR #10651](https://github.com/github/advisory-database/pull/10651)** |
+| **ApostropheCMS** · [GHSA-vmg4-6gfg-83qx](https://github.com/advisories/GHSA-vmg4-6gfg-83qx) | Replaced `last_affected` 4.32.0 with the more explicit `fixed` **4.32.1** for prototype-pollution DoS | **[Merged PR #10651](https://github.com/github/advisory-database/pull/10651)** |
 | **FacturaScripts** · [GHSA-2p5x-4jr6-x5jg](https://github.com/advisories/GHSA-2p5x-4jr6-x5jg) | Corrected fixed-release boundary (**2026.2**) and referenced CSV/XLS export hardening | **[Merged PR #10639](https://github.com/github/advisory-database/pull/10639)** |
 | **Dolibarr** · [GHSA-2mfj-r695-5h9r](https://github.com/advisories/GHSA-2mfj-r695-5h9r) | Corrected the patched-release boundary while documenting affected **22.x** versions | **[Merged PR #10672](https://github.com/github/advisory-database/pull/10672)** |
 | **NotrinosERP** · [GHSA-qv4m-m73m-8hj7](https://github.com/advisories/GHSA-qv4m-m73m-8hj7) | Recorded fixed release **1.1.0** and linked employee-document upload remediation | **[Merged PR #10646](https://github.com/github/advisory-database/pull/10646)** |
@@ -64,13 +64,13 @@ These are **eight independently checked examples** of pull requests authored by 
 
 ## `$ cat /evidence/case-studies.md`
 
-### `CASE 001` · ApostropheCMS — follow the fix across release lines
+### `CASE 001` · ApostropheCMS — make the patched version explicit
 
-**Problem with the advisory metadata:** the published advisory needed a clear patched version and corresponding remediation reference.
+**Starting point:** the advisory's range ended at `last_affected` 4.32.0, and it already referenced the fix commit.
 
-**Contribution:** [PR #10651](https://github.com/github/advisory-database/pull/10651) set the patched version to **4.32.1** and added the relevant fix commit. The PR explicitly notes the release-line complication: a direct commit-ancestry check alone would be misleading, so it also compares code in the release tag.
+**Contribution:** [PR #10651](https://github.com/github/advisory-database/pull/10651) replaced `last_affected` 4.32.0 with the more explicit `fixed` **4.32.1**. It did not add the fix-commit reference. The reviewer accepted the clearer key and said the prior record was accurate.
 
-**Why it matters:** a correct fixed-version boundary helps consumers interpret dependency warnings and decide which updates remediate a disclosed issue.
+**Why it matters:** an explicit fixed-version boundary helps consumers interpret dependency warnings and decide which updates remediate a disclosed issue.
 
 **Evidence:** [Accepted PR](https://github.com/github/advisory-database/pull/10651) · [Published advisory](https://github.com/advisories/GHSA-vmg4-6gfg-83qx)
 
