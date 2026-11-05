@@ -1,109 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="zuhairhalawa cyber terminal: computer science, software engineering, cybersecurity and builder">
-<defs>
-  <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#040a0c"/><stop offset=".52" stop-color="#061419"/><stop offset="1" stop-color="#020609"/></linearGradient>
-  <linearGradient id="neon" x1="0" y1="0" x2="1" y2=".2"><stop stop-color="#d3fff1"/><stop offset=".33" stop-color="#45ffc6"/><stop offset=".68" stop-color="#28e2d7"/><stop offset="1" stop-color="#57bfff"/></linearGradient>
-  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#27f5a8" stop-opacity=".9"/><stop offset=".6" stop-color="#32e5db" stop-opacity=".7"/><stop offset="1" stop-color="#2da8ff" stop-opacity=".12"/></linearGradient>
-  <radialGradient id="aura"><stop stop-color="#12ffb3" stop-opacity=".27"/><stop offset="1" stop-color="#12ffb3" stop-opacity="0"/></radialGradient>
-  <filter id="glow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="6"/></filter>
-  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.1"/></filter>
-  <pattern id="scanlines" patternUnits="userSpaceOnUse" width="4" height="4"><rect width="4" height="1" fill="#b3fff1" opacity=".029"/></pattern>
-  <style>
-    .cursor{animation:blink 1.1s steps(1,end) infinite}
-    .pulse{animation:dim 4s ease-in-out infinite}
-    .scan{animation:sweep 8s linear infinite}
-    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
-    @keyframes dim{0%,100%{opacity:.48}50%{opacity:1}}
-    @keyframes sweep{0%{transform:translateY(-260px)}100%{transform:translateY(540px)}}
-  </style>
-</defs>
-<rect width="1200" height="350" fill="url(#dark)"/>
-<ellipse cx="760" cy="190" rx="445" ry="260" fill="url(#aura)"/>
-<g><path d="M0 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.31"/>
-<path d="M64 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M128 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M192 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.31"/>
-<path d="M256 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M320 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M384 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.31"/>
-<path d="M448 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M512 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M576 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.31"/>
-<path d="M640 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M704 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M768 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.31"/>
-<path d="M832 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M896 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M960 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.31"/>
-<path d="M1024 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M1088 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/>
-<path d="M1152 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.31"/>
-<path d="M1216 0 V352" stroke="#12343a" stroke-width=".7" opacity="0.17"/><path d="M0 4 H1200" stroke="#0c3940" stroke-width=".7" opacity=".36"/>
-<path d="M0 52 H1200" stroke="#0c3940" stroke-width=".7" opacity=".36"/>
-<path d="M0 100 H1200" stroke="#0c3940" stroke-width=".7" opacity=".36"/>
-<path d="M0 148 H1200" stroke="#0c3940" stroke-width=".7" opacity=".36"/>
-<path d="M0 196 H1200" stroke="#0c3940" stroke-width=".7" opacity=".36"/>
-<path d="M0 244 H1200" stroke="#0c3940" stroke-width=".7" opacity=".36"/>
-<path d="M0 292 H1200" stroke="#0c3940" stroke-width=".7" opacity=".36"/>
-<path d="M0 340 H1200" stroke="#0c3940" stroke-width=".7" opacity=".36"/></g>
-<g><text x="20" y="27" fill="#11e69d" opacity=".16" font-family="monospace" font-size="13">0xAF</text>
-<text x="157" y="100" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">0110</text>
-<text x="294" y="173" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">//</text>
-<text x="431" y="246" fill="#11e69d" opacity=".16" font-family="monospace" font-size="13">{ }</text>
-<text x="568" y="319" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">1011</text>
-<text x="705" y="87" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">sudo</text>
-<text x="842" y="160" fill="#11e69d" opacity=".16" font-family="monospace" font-size="13">0x1F</text>
-<text x="979" y="233" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">~/</text>
-<text x="1116" y="306" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">001</text>
-<text x="73" y="74" fill="#11e69d" opacity=".16" font-family="monospace" font-size="13">0xAF</text>
-<text x="210" y="147" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">0110</text>
-<text x="347" y="220" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">//</text>
-<text x="484" y="293" fill="#11e69d" opacity=".16" font-family="monospace" font-size="13">{ }</text>
-<text x="621" y="61" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">1011</text>
-<text x="758" y="134" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">sudo</text>
-<text x="895" y="207" fill="#11e69d" opacity=".16" font-family="monospace" font-size="13">0x1F</text>
-<text x="1032" y="280" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">~/</text>
-<text x="1169" y="48" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">001</text>
-<text x="126" y="121" fill="#11e69d" opacity=".16" font-family="monospace" font-size="13">0xAF</text>
-<text x="263" y="194" fill="#11e69d" opacity=".16" font-family="monospace" font-size="10">0110</text></g>
-<path d="M0 320 L260 320 290 293 H690 L714 270 H1200" fill="none" stroke="#10e9ae" stroke-opacity=".16" stroke-width="2"/>
-<path d="M0 53 H360 L389 82 H712 L739 52 H1200" fill="none" stroke="#0bf8b3" stroke-opacity=".25" stroke-width="1.5"/>
-<rect x="24" y="23" width="1152" height="304" rx="12" fill="#03090d" fill-opacity=".47" stroke="#28636a" stroke-opacity=".82" stroke-width="1.2"/>
-<path d="M36 46 V35 H47 M1153 35 H1164 V46 M36 306 V317 H47 M1153 317 H1164 V306" fill="none" stroke="#49f6ca" stroke-width="2.3"/>
-<rect x="24" y="23" width="1152" height="39" rx="12" fill="#071b21" fill-opacity=".91"/>
-<path d="M25 62 H1175" stroke="#3ad8c9" stroke-opacity=".46"/>
-<circle cx="48" cy="43" r="5" fill="#ff657a"/><circle cx="66" cy="43" r="5" fill="#ffc46b"/><circle cx="84" cy="43" r="5" fill="#2df39f"/>
-<text x="112" y="48" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#81dec8" letter-spacing=".6">zuhair@portfolio:~ / terminal</text>
-<text x="1148" y="48" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="11.5" fill="#5fb19c">PORTFOLIO // 2026</text>
-<g opacity=".12"><path d="M72 111 H840" stroke="#4effcf" stroke-width="1"/><path d="M72 251 H840" stroke="#4effcf" stroke-width="1"/></g>
-<text x="72" y="105" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#35e6ac" letter-spacing="2">$ whoami</text>
-<text x="74" y="199" fill="#00d9a2" opacity=".35" filter="url(#soft)" font-family="Verdana, 'DejaVu Sans', sans-serif" font-weight="800" font-size="78" letter-spacing="-4">zuhairhalawa</text>
-<text x="72" y="195" fill="url(#neon)" font-family="Verdana, 'DejaVu Sans', sans-serif" font-weight="800" font-size="78" letter-spacing="-4">zuhairhalawa</text>
-<rect x="72" y="211" width="700" height="2" fill="url(#fade)" opacity=".84"/>
-<text x="74" y="238" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#a8e4db" letter-spacing="1.2">SOFTWARE ENGINEERING  <tspan fill="#31efab">//</tspan>  CYBERSECURITY  <tspan fill="#31efab">//</tspan>  BUILDING PRODUCTS</text>
-<text x="74" y="286" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#65f0b8">$ build --test --ship<tspan class="cursor" fill="#4effc5"> █</tspan></text>
-<g><path d="M50 270 v-12 h28" fill="none" stroke="#0b9f73" stroke-width="1.3" opacity=".36"/>
-<path d="M177 270 v-21 h28" fill="none" stroke="#147381" stroke-width="1.3" opacity=".36"/>
-<path d="M304 270 v-30 h28" fill="none" stroke="#0b9f73" stroke-width="1.3" opacity=".36"/>
-<path d="M431 270 v-12 h28" fill="none" stroke="#147381" stroke-width="1.3" opacity=".36"/>
-<path d="M558 270 v-21 h28" fill="none" stroke="#0b9f73" stroke-width="1.3" opacity=".36"/>
-<path d="M685 270 v-30 h28" fill="none" stroke="#147381" stroke-width="1.3" opacity=".36"/>
-<path d="M812 270 v-12 h28" fill="none" stroke="#0b9f73" stroke-width="1.3" opacity=".36"/>
-<path d="M939 270 v-21 h28" fill="none" stroke="#147381" stroke-width="1.3" opacity=".36"/>
-<path d="M1066 270 v-30 h28" fill="none" stroke="#0b9f73" stroke-width="1.3" opacity=".36"/></g>
-<rect x="873" y="90" width="274" height="197" rx="7" fill="#03181b" fill-opacity=".82" stroke="#2b9d8f" stroke-opacity=".68"/>
-<rect x="873" y="90" width="274" height="27" rx="7" fill="#0a3335" fill-opacity=".9"/>
-<path d="M874 117 H1146" stroke="#1a7472"/>
-<circle cx="893" cy="104" r="3.5" fill="#56ffba" class="pulse"/>
-<text x="905" y="109" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#83e5cb">/proc/mission</text>
-<text x="892" y="139" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#41f0b0">root@zuhair:~$ cat mission</text>
-<text x="892" y="162" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#c5fbed">+ build useful software</text>
-<text x="892" y="183" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#c5fbed">+ test the edge cases</text>
-<text x="892" y="204" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#c5fbed">+ ship with confidence</text>
-<path d="M892 223 H1127" stroke="#29b89e" opacity=".52" stroke-dasharray="4 5"/>
-<text x="892" y="244" font-family="Consolas, 'Courier New', monospace" font-size="11.5" fill="#47d4c1">MODE:</text>
-<text x="948" y="244" font-family="Consolas, 'Courier New', monospace" font-weight="700" font-size="11.5" fill="#7fffd4">ALWAYS BUILDING</text>
-<text x="892" y="265" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#66a9a6">UAE  /  CS  /  SECURITY</text>
-<rect x="24" y="23" width="1152" height="304" rx="12" fill="url(#scanlines)"/>
-<rect x="24" y="65" width="1152" height="1.5" class="scan" fill="#73ffd6" opacity=".26" filter="url(#glow)"/>
-<path d="M24 327 H1176" stroke="url(#fade)" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Zuhair Halawa</title>
+  <desc id="description">An understated dark identity header. Software, security, and digital products.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0C1010"/>
+      <stop offset="1" stop-color="#080B0C"/>
+    </linearGradient>
+    <radialGradient id="wash">
+      <stop stop-color="#A8C399" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#A8C399" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule">
+      <stop stop-color="#9DAF91" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#9DAF91" stop-opacity=".08"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="8" fill="url(#background)"/>
+  <rect x=".5" y=".5" width="1199" height="299" rx="7.5" fill="none" stroke="#242C29"/>
+  <ellipse cx="1006" cy="149" rx="230" ry="204" fill="url(#wash)"/>
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#A6B09F">
+    <text x="60" y="55">INDEPENDENT BY DESIGN</text>
+  </g>
+  <text x="56" y="158" font-family="Arial, Helvetica, sans-serif" font-size="85" font-weight="400" letter-spacing="-4.5" fill="#EEEFE7">zuhairhalawa<tspan fill="#B2C89B">.</tspan></text>
+  <text x="60" y="204" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing=".5" fill="#A7B0A8">Software. Security. Digital products.</text>
+  <path d="M60 247H772" stroke="url(#rule)"/>
+  <text x="60" y="274" font-family="Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="2" fill="#8D9A8C">ZUHAIRHALAWA.COM</text>
+  <g transform="translate(1010 148)" fill="none">
+    <circle r="100" stroke="#2D3930" stroke-width=".8"/>
+    <circle r="88" stroke="#46543E" stroke-width=".65"/>
+    <path d="M-115 0H-101M101 0H115M0-115V-101M0 101V115" stroke="#64745A" stroke-width=".8"/>
+    <path d="M-60-32H-7L-54 33H1M22-37V36M22 0H59M59-37V36" stroke="#C1D0B1" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M-76-66A100 100 0 0 1 78-63" stroke="#B2C89B" stroke-width="1.4"/>
+    <circle cx="78" cy="-63" r="3" fill="#B2C89B" stroke="none"/>
+  </g>
 </svg>
